@@ -1,0 +1,16 @@
+# vim: set syntax=yaml ts=2 sw=2 sts=2 et :
+#
+# coder: b0b
+# stamp: 1999-12-31
+
+base:
+  'dom0':
+    - config.sys-i2pd-dvm
+    - config.sys-i2pd
+    - config.i2pd-browse-dvm
+  'sys-i2pd-template':
+    - config.sys-i2pd-template-config
+  'i2pd-browse-template':
+    - config.i2pd-browse-template-config
+  'i2pd-browse-dvm':
+    - config.i2pd-browse-dvm-config 
